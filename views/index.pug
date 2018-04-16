@@ -1,0 +1,12 @@
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title start
+    link(rel='Stylesheet', type='text/css', href='style.css')
+    style
+      include style.css
+  body
+    include ./header.pug  
+    form(action='http://localhost:3000/auth/google', method='GET')
+      h2 Uwierzytelnianie przez gmail:
+      input.btn(type='submit', value='zaloguj')

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+body {
+   background: #3369e8;
+   min-height: 100vh;
+}
+
+form {
+   text-align: center;
+   margin-top: 20vh;
+}
+
+form p {
+   font-size: 22px;
+   color: black;
+}
+
+input {
+   height: 35px;
+   font-size: 22px;
+   width: 200px;
+}
+
+h1 {
+   font-size: 100px;
+   font-family: 'Noto Serif', serif;
+}
+h2 {
+   font-size: 70px;
+   font-family: 'Noto Serif', serif;
+}
+
+h3 {
+   color: black;
+   font-family: 'Noto Sans', sans-serif;
+}
+
+.btn {
+   width: 100px;
+   cursor: pointer;
+   color: black;
+}
+
+.btn:hover {
+   color: #fff;
+   background: #555;
+}
+
+.container {
+   margin: 0 auto;
+   text-align: center;
+   font-size: 50px;
+   font-family: 'Noto Serif', serif;
+}
+
+.img {
+   background-image: url('http://www.komputerswiat.pl/media/2013/263/3116901/google-flatter-logo_644x294.jpg');
+   background-size: cover;
+   width: 644px;
+   min-height: 294px;
+   margin: 0 auto;
+}
